@@ -17,12 +17,6 @@
           <g-link :to="post.node.path" class="font-bold uppercase">Read More</g-link>
         </div>
       </div> <!-- end post -->
-      <adsense class="test"
-          ad-client="ca-pub-4820190408774040"
-          ad-slot="7894191601"
-          ad-style="display: block"
-          ad-format="auto">
-      </adsense>
       <pagination-posts
         v-if="$page.posts.pageInfo.totalPages > 1"
         base="/blog"

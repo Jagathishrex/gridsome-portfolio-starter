@@ -47,12 +47,6 @@
       <slot/>
     </div>
     <footer class="bg-green-700 text-white">
-        <adsense
-            ad-client="ca-pub-4820190408774040"
-            ad-slot="7894191601"
-            ad-style="display: block"
-            ad-format="auto">
-        </adsense>
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div>Created with ❤️ By JavaScript Jeep</div>
