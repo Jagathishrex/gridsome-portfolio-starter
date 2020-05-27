@@ -4,7 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
-import VueAdsense from 'vue-adsense'
+import VueAdsense from 'vue-adsense/VueAdsense.vue'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -41,5 +41,11 @@ export default function (Vue, { router, head, isClient }) {
 		type: 'text/javascript',
         src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
         async: true
-	})
+  })
+  head.script.push({
+        "data-ad-client" : "ca-pub-4820190408774040",
+		type: 'text/javascript',
+        src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        async: true
+  })
 }
