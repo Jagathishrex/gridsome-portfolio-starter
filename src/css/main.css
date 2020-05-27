@@ -4,6 +4,7 @@
 
 @tailwind utilities;
 
+
 .theme-light {
   --bg-background-primary: white;
   --bg-background-secondary: #f7fafc;
@@ -15,6 +16,11 @@
   --text-copy-secondary: #4a5568;
 
   --border-border-color-primary: white;
+
+  --bg-inline-code-color : #B32585;
+  --bg-inline-code-background : #ECEDEE;
+  --bg-selection-color : #fff;
+  --bg-selection-background: #2F855A;
 }
 
 .theme-light .search-highlighted {
@@ -48,6 +54,12 @@
   --text-copy-secondary: #e2e8f0;
 
   --border-border-color-primary:  #1a202c;
+
+  --bg-inline-code-color : #B32585;
+  --bg-inline-code-background : #ECEDEE;
+
+  --bg-selection-color : #fff;
+  --bg-selection-background: rgb(220, 82,85);
 }
 
 .theme-dark .markdown-body {
@@ -118,3 +130,28 @@ nav .active {
   height: 100%;
   border: 0;
 }
+
+
+.header{
+    font-size: 2em;
+    font-weight: bolder;
+}
+/* inline code */
+.markdown-body > p >code{
+    color: var(--bg-inline-code-color);
+    background:  var(--bg-inline-code-background);
+    font-weight: bolder;
+    font-size: .78em;
+    padding: 0.2em .2em;
+    text-align: start;
+    display: inline-block;
+}
+/*  sudo element  */
+::selection {
+  color: var(--bg-selection-color);
+  background: var(--bg-selection-background);
+}
+/*
+code::selection{
+
+} */

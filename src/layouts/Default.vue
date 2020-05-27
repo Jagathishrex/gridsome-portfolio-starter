@@ -2,9 +2,9 @@
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
     <header class="border-t-14 border-green-700">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
-        <div>
-          <g-link v-if="theme === 'theme-light'" to="/"><g-image src="../../static/logo.svg" class="w-40" alt="logo" /></g-link>
-          <g-link v-else to="/"><g-image src="../../static/logo_dark_mode.svg" class="w-40" alt="logo" /></g-link>
+        <div class="header">
+            <a v-if="$route.path === '/'" class="text-copy-primary hover:text-gray-600">JavaScript</a>
+            <g-link v-else to="/" class="text-copy-primary hover:text-gray-600">JavaScript Jeep</g-link>
         </div>
         <div class="block lg:hidden">
           <button @click="toggle" class="flex items-center px-3 py-2 border rounded border-gray-500 hover:text-gray-600 hover:border-gray-600">
@@ -21,24 +21,7 @@
           <li>
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
-          <li>
-            <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="text-copy-primary hover:text-gray-600">Projects</a>
-            <g-link v-else to="/#projects" class="text-copy-primary hover:text-gray-600">Projects</g-link>
-          </li>
-          <li>
-            <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-copy-primary hover:text-gray-600">About</a>
-            <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</g-link>
-          </li>
-          <li>
-            <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">Contact</a>
-            <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
-          </li>
-          <li>
-            <g-link to="/docs" class="text-copy-primary hover:text-gray-600">Docs</g-link>
-          </li>
-          <li>
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
-          </li>
+
         </ul>
       </nav>
     </header>

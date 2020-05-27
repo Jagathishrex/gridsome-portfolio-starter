@@ -4,12 +4,10 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
-import VueAdsense from 'vue-adsense/VueAdsense.vue'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  Vue.component('adsense', VueAdsense)
 
   Vue.use(VueScrollTo, {
     duration: 500,
@@ -36,11 +34,6 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'
-  })
-  head.script.push({
-		type: 'text/javascript',
-        src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-        async: true
   })
   head.script.push({
         "data-ad-client" : "ca-pub-4820190408774040",

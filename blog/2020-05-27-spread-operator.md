@@ -10,7 +10,7 @@ Learn how to use spread operator in JavaScript
 
 ![Spread Syntax Example](https://cdn-images-1.medium.com/max/3208/1*ck6Fs5k54T8Yv09D2dS0jA.png)*Spread Syntax Example*
 
-The spread operator(...) is introduced in ES6 .
+The spread operator `(...)` is introduced in ES6 .
 
 Spread operator expands an iterable objects into its individual element. An iterable object is anything that you can loop over with our for of loop .
 
@@ -35,10 +35,11 @@ console.log(...fruitsCopy); //🍈 🍉 🍋 🍌
 ```
 
 Copy objects
-
+```js
 let user = {name : "John", age : 20 }
 
 let userCopy = {...user}
+```
 > The spread operator *does not perform deep-copy.*
 
 ### 3. Spread operator for Merging
