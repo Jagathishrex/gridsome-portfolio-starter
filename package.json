@@ -1,5 +1,5 @@
 {
-  "name": "andremadarang",
+  "name": "JavaScript Jeep",
   "private": true,
   "scripts": {
     "build": "gridsome build",
