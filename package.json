@@ -1,6 +1,6 @@
 {
-  "name": "JavaScript Jeep",
-  "private": true,
+  "name": "JavaScript_Jeep",
+  "private": "true",
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
