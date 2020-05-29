@@ -3,7 +3,8 @@ title: Everything about the audio tag in HTML and JavaScript
 path: /html-audio
 date: 2020-05-28
 summary: In this article you will learn how to play, pause, stop, rewind, fast forward, audio using JavaScript and HTML
-tags: ['Js', 'audio', 'jstips', 'HTML5']
+tags: ['JavaScript', 'audio', 'jstips', 'HTML5']
+mainTag : JavaScript
 ---
 
 ![Audio CheatSheet](https://cdn-images-1.medium.com/max/3040/1*Mzw2EvLq9M-9fBFfXIXFnA.png)*Audio CheatSheet*

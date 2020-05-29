@@ -3,7 +3,8 @@ title: 8 ways to use the Spread operator in JavaScript
 path: /spread-operator
 date: 2020-05-27
 summary: Spread operator expands an iterable objects into its individual element. An iterable object is anything that you can loop over with our for of loop .
-tags: ['Js', 'ES6', 'jstips', 'programming']
+tags: ['Js', 'ES6', 'jstips', 'programming', "JavaScript"]
+mainTag : "JavaScript"
 ---
 
 Learn how to use spread operator in JavaScript

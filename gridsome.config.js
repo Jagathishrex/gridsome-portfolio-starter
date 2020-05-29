@@ -5,10 +5,10 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'JavaScript Jeep',
-  siteDescription: 'Website for JavaScript Articles',
-  siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
-  plugins: [
+    siteName: 'JavaScript Jeep',
+    siteDescription: 'Website for JavaScript Articles',
+    siteUrl: 'https://javascriptjeep.com',
+    plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
       options: {
@@ -78,6 +78,31 @@ module.exports = {
         cacheTime: 600000, // default
       }
     },
+    {
+        use: '@gridsome/plugin-google-analytics',
+        options: {
+          id: 'UA-154765892-1'
+        }
+    },
+    // {
+    //   use: 'gridsome-plugin-pwa',
+    //   options: {
+    //       title: 'JavaScriptJeep',
+    //       startUrl: '/',
+    //       display: 'standalone',
+    //       statusBarStyle: 'default',
+    //       manifestPath: 'manifest.json',
+    //       disableServiceWorker: true,
+    //       serviceWorkerPath: 'service-worker.js',
+    //       cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
+    //       shortName: 'JavaScriptJeep',
+    //       themeColor: '#666600',
+    //       backgroundColor: '#ffffff',
+    //       icon: 'src', // must be provided like 'src/favicon.png'
+    //       msTileImage: '',
+    //       msTileColor: '#666600'
+    //   }
+    // },
   ],
   templates: {
     Tag: '/tag/:id'

@@ -4,6 +4,7 @@ path: /template-literal
 date: 2020-05-28
 summary: Template Literals allows you to embed javascript expression inside the string and call functions using Tagged template literal
 tags: ['String', 'js', 'es6', 'JavaScript']
+mainTag : "es6"
 ---
 
 ![Template Literals in JavaScript](https://cdn-images-1.medium.com/max/2800/1*97L17IA-0WdaxAs8dVPMwg.jpeg)*Template Literals in JavaScript*

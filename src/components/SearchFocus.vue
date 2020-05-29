@@ -8,7 +8,17 @@ export default {
     this.handler = event => {
       this.$emit('keyup', event)
     }
-    window.addEventListener('keyup', this.handler)
+    try{
+        window.addEventListener('keyup', this.handler);
+        if(!window.adsbygoogle || !adsbygoogle.loaded){
+           var script = document.createElement('script');
+           script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+           script.setAttribute('data-ad-client', "ca-pub-4820190408774040");
+           document.head.appendChild(script);
+        }
+    } catch(e) {
+        console.log("Exception on loading google ads");
+    }
   },
   beforeDestroy() {
     window.removeEventListener('keyup', this.handler)

@@ -4,6 +4,7 @@ path: /mac-tricks
 date: 2020-05-28
 summary:  Learn how to Display the weather, shut down your computer, and more, all from your terminal.
 tags: ['terminal', 'mac', 'life-hacks', 'hacks']
+mainTag : 'terminal'
 ---
 
 ![Photo by [Ash Edmonds](https://unsplash.com/@badashproducts?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral).](https://cdn-images-1.medium.com/max/11520/0*BzXB9T9_lxEJdutd)Photo by [Ash Edmonds](https://unsplash.com/@badashproducts?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral).

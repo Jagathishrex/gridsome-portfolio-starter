@@ -25,7 +25,6 @@
         </ul>
       </nav>
     </header>
-
     <div class="flex-grow">
       <slot/>
     </div>

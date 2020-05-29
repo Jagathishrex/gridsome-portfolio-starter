@@ -3,7 +3,8 @@ title: Function arguments
 path: /function-arguments
 date: 2020-05-28
 summary: Learn about how to use arguments objects inside function in JavaScript
-tags: ['Js', 'arguments', 'jstips', 'HTML5']
+tags: ['JavaScript', 'arguments', 'jstips', 'HTML5']
+mainTag : JavaScript
 ---
 
 ![Arguments in JavaScript](https://cdn-images-1.medium.com/max/2048/1*Z9IhXv0dyGqmzOr2_9qTvQ.png)*Arguments in JavaScript*

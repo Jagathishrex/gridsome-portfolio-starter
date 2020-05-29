@@ -35,10 +35,4 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'
   })
-  head.script.push({
-        "data-ad-client" : "ca-pub-4820190408774040",
-		type: 'text/javascript',
-        src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-        async: true
-  })
 }
