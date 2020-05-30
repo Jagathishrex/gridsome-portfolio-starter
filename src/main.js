@@ -18,19 +18,36 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'keywords',
-    content: 'Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS'
+    content: 'JavaScript, programming, JavaScript Jeep, Coding, 100DaysOfCode, '
   })
 
   head.meta.push({
     name: 'description',
-    content: 'Gridsome Portfolio Starter'
+    content: 'JavaScript Jeep for JavaScript Articles'
   })
 
   head.meta.push({
     name: 'author',
-    content: 'Andre Madarang'
+    content: 'JavaScript Jeep'
   })
-
+  head.script.push({
+    src: 'https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js',
+    body: true,
+    async: true,
+    "data-id":"Jagathish",
+    "data-description":"Support me on Buy me a coffee!",
+    "data-message":"Cheer me Up",
+    "data-color":"#FF5F5F",
+    "data-position":"right",
+    "data-x_margin":"18",
+    "data-y_margin":"18",
+    "data-name":"BMC-Widget"
+  });
+  head.script.push({
+      async : true,
+      body : true,
+      src : "http://c.amazon-adsystem.com/aax2/assoc.js"
+  });
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'

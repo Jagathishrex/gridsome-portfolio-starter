@@ -13,6 +13,10 @@
         </g-link>
       </div>
       <div class="markdown-body mb-8" v-html="$page.post.content" />
+      <g-link to="https://www.buymeacoffee.com/Jagathish" target="_blank">
+          <g-image src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" />
+      </g-link>
+      
       <div class="mb-8">
         <g-link to="/blog" class="font-bold uppercase">Back to Blog</g-link>
       </div>

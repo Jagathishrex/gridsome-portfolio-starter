@@ -146,10 +146,24 @@ nav .active {
     text-align: start;
     display: inline-block;
 }
+footer{
+    background-color: tomato;
+}
+a{
+    color: tomato;
+}
+a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.top-border {
+    border-color: tomato;
+}
+
 /*  sudo element  */
 ::selection {
-  color: var(--bg-selection-color);
-  background: var(--bg-selection-background);
+  color: white;
+  background: tomato;
 }
 /*
 code::selection{
